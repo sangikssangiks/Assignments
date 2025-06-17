@@ -1,7 +1,7 @@
 import './App.css'
 import { Link } from "react-router-dom";
 import React, { useEffect, useState } from "react";
-function Assignments() {
+function Assignments11() {
 
 const [userData, setUserData] = useState(null);
     useEffect(() => {
@@ -43,4 +43,4 @@ useEffect(() => {
   )
 }
 
-export default Assignments 
+export default Assignments11

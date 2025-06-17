@@ -9,13 +9,13 @@ import Blogs from "./Blogs"
 import About from "./About"
 import Project from"./Project"
 import Contactme from"./Contactme"
-import Assignments from './assignments';
+import Assignments11 from './Assignments11';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
         <BrowserRouter>
     
      <Routes>
-        <Route path="" element={<Assignments />}/>
+        <Route path="" element={<Assignments11 />}/>
       
           <Route path="users" element={<Blogs />} />
         
