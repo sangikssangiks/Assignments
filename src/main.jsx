@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Menu from "./Menu"
+
 import Home from "./Home"
 import Blogs from "./Blogs"
 import About from "./About"
